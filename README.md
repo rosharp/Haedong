@@ -1,2 +1,1 @@
-# Hadong
 # Haedong
