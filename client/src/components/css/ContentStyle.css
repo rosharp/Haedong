@@ -1,0 +1,13 @@
+.content-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 2%;
+}
+
+.content {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding-right: 35%;
+  padding-left: 35%;
+}
