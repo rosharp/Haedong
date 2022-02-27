@@ -8,6 +8,7 @@ function Content() {
         <h2 className="content-header">Sed sit.</h2>
       </div>
       <div className="content">
+        <img className="uk-align-left uk-margin-remove-adjacent" width="225" height="150" src={require("./images/SyomaTarelka.jpg")} alt="ContentImage1" />
         <p>Vivamus in iaculis dolor. Ut sit amet commodo ligula. Quisque id finibus leo, vitae lacinia lorem. Quisque eget turpis nec nisl blandit iaculis. Aliquam erat volutpat. Quisque suscipit mi eget mattis semper. Nunc a massa eget est aliquam semper vitae id enim. Morbi vitae gravida orci. Nunc porttitor eros a eros efficitur venenatis.</p>
       </div>
     </div>

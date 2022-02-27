@@ -1,3 +1,12 @@
 .uk-navbar-container{
 	transition: background-color 0.5s ease;
+  position: relative; 
+  z-index: 980;
 }
+
+.uk-navbar-right {
+  margin-right: 3rem;
+  margin-top: 1rem;
+}
+
+

@@ -3,7 +3,7 @@ import NavbarStyle from "./css/NavbarStyle.css";
 
 function Navbar() {
   return (
-    <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-dark; top: 200">
+    <div uk-sticky="true">
       <nav className="uk-navbar-contaner" uk-navbar="true">
         <div className="uk-navbar-right">
           <ul className="uk-navbar-nav">
@@ -26,4 +26,6 @@ function Navbar() {
   );
 }
 
-export default Navbar; 
+export default Navbar;
+
+// Sticky settings: uk-sticky="animation: uk-animation-scale-up; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-dark; top: 70"
